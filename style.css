@@ -1,0 +1,174 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #e6f5e6, #d8f5d8);
+}
+header {
+    background-color: transparent;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-and-title {
+    display: flex;
+    align-items: center;
+    width: 100%;       /* Change from 600px to full width */
+    max-width: 90%;
+}
+
+
+.title-text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px; /* Add some space between text and logo */
+}
+
+.title-text p {
+    font-size: 3em;
+    font-weight: normal;
+    color: #4f6c4f;
+    margin: 0;
+    font-family: Georgia, sans-serif;
+    /* Reduce margin-bottom if any */
+    margin-bottom: 0.1em; /* Tighten gap between "project" and "ROOTS" */
+}
+
+.title-text h1 {
+    font-size: 8em;
+    color: #4f6c4f;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    line-height: 0.9; /* Adjust line height to bring words closer vertically */
+}
+
+.logo-circle {
+    margin-left: auto; /* Push logo to the far right */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border: 10px solid #dddddd04;
+    border-radius: 50%;
+    padding: 10px;
+    width: 135px;
+    height: 125px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.logo-circle img {
+    height: 120px;
+    margin: 0; /* Remove margin-right */
+}
+
+
+
+
+
+
+.hero-section img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.text-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.vision, .mission {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: transparent; /* Changed to transparent */
+    border-radius: 10px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    color: #4f6c4f;
+}
+
+.vision p, .mission p {
+    text-align: justify;
+}
+
+.gofundme-section {
+    background-color: #4f6c4f;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.gofundme-info {
+    margin-right: 20px;
+    flex: 1;
+    text-align: center;
+    max-width: 300px;
+}
+
+.gofundme-info p:first-child {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.gofundme-info p:last-of-type {
+    margin-top: 0;
+    font-size: 0.9em;
+}
+
+.gofundme-info button {
+    /* New styles for the button */
+    background-color: #e74c3c; /* A strong red for visibility */
+    color: #fff;
+    border: none;
+    padding: 15px 30px; /* Increased padding to make it larger */
+    font-size: 1.2em; /* Larger font size */
+    cursor: pointer;
+    border-radius: 6px; /* Rounded corners */
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2); /* A subtle shadow to make it pop */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gofundme-info button:hover {
+    /* Hover effect to make it interactive */
+    background-color: #c0392b; /* Slightly darker red on hover */
+    transform: translateY(-2px); /* Lifts the button slightly */
+}
+
+.qr-code {
+    margin-left: 20px;
+}
+
+.qr-code img {
+    height: 150px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #4f6c4f; /* Changed to dark green */
+    color: #fff;
+}
